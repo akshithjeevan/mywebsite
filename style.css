@@ -21,13 +21,13 @@ h1{
     color:white;
     font-weight: bold;
     
-    font-size: 4vw;
+    font-size: 6vw;
     
   -webkit-text-stroke-color:rgb(170, 154, 154);
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .5px;
   font-family:Arial;
 }
-@media(min-width: 900px){
+@media(min-width: 750px){
     .small-title {
         font-size: 36px;
     }
@@ -43,7 +43,6 @@ h1{
 .team{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(b5img/background5new.jpg); 
     color:white; 
-    height:100vh;
     justify-content: center;
     align-items: center;
 }
